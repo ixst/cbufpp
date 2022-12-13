@@ -1,0 +1,21 @@
+#ifndef CBUFPP_VERSION_HH__
+#define CBUFPP_VERSION_HH__
+
+#include <string>
+
+
+namespace cbufpp {
+
+class Version {
+public:
+  static constexpr int kMajor = @VERSION_MAJOR@;
+  static constexpr int kMinor = @VERSION_MINOR@;
+  static constexpr int kPatch = @VERSION_PATCH@;
+  static constexpr std::string kName = "@VERSION_MAJOR@.@VERSION_MINOR@.@VERSION_PATCH@";
+
+};
+
+}
+
+
+#endif
